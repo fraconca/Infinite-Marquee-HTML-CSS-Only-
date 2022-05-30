@@ -27,18 +27,22 @@
 h1 {
   margin: 0;
   font-size: 100px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   transition: all 2s ease;
 }
 a {
-  text-decoration:none;
-  color:black;
-  }
-a:hover{
-  -webkit-text-stroke: 1px white;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  -webkit-text-stroke: 1px #ff7200;
   color: transparent;
 }
 @keyframes scrollText {
-  from   { transform: translateX(0%); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
