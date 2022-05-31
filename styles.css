@@ -27,7 +27,7 @@ body {
 
 .m-scroll__title > div {
   display: flex;
-  animation: scrollText 33s infinite linear;
+  animation: scrollText 60s infinite linear;
 }
 @keyframes scrollText {
   from {
