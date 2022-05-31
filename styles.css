@@ -32,7 +32,7 @@ body {
   height: 100%;
   white-space: nowrap;
   transform: scale(2);
-  transition: all 1s ease;
+  transition: all 1s infinite ease;
 }
 .m-scroll__title__INV {
   display: flex;
@@ -45,12 +45,12 @@ body {
   height: 100%;
   white-space: nowrap;
   transform: scale(2);
-  transition: all 1s ease;
+  transition: all 1s infinite ease;
 }
 
 .m-scroll__title > div {
   display: flex;
-  animation: scrollText 30s infinite linear;
+  animation: scrollText 120s infinite linear;
 }
 @keyframes scrollText {
   from {
@@ -63,7 +63,7 @@ body {
 
 .m-scroll__title__INV > div {
   display: flex;
-  animation: scrollTextINV 30s infinite linear;
+  animation: scrollTextINV 120s infinite linear;
   animation-direction: reverse;
 }
 @keyframes scrollTextINV {
