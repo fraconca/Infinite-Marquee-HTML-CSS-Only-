@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 55px;
   margin: auto;
   overflow: hidden;
   z-index: 1;
@@ -26,7 +26,7 @@
 }
 h1 {
   margin: 0;
-  font-size: 100px;
+  font-size: 40px;
   color: rgba(255, 255, 255, 1);
   transition: all 2s ease;
 }
@@ -45,4 +45,11 @@ a:hover {
   to {
     transform: translateX(-50%);
   }
+}
+
+.marqPos{
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ff7200;
 }
