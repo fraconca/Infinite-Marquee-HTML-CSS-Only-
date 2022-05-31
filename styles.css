@@ -1,3 +1,6 @@
+body {
+  margin: auto;
+}
 .m-scroll {
   display: flex;
   position: relative;
@@ -7,6 +10,7 @@
   overflow: hidden;
   z-index: 1;
 }
+
 .m-scroll__title {
   display: flex;
   position: absolute;
@@ -20,10 +24,20 @@
   transform: scale(2);
   transition: all 1s ease;
 }
+
 .m-scroll__title > div {
   display: flex;
   animation: scrollText 33s infinite linear;
 }
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 h1 {
   margin: 0;
   font-size: 40px;
@@ -38,16 +52,8 @@ a:hover {
   -webkit-text-stroke: 1px #ff7200;
   color: transparent;
 }
-@keyframes scrollText {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
 
-.marqPos{
+.marqPos {
   color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
