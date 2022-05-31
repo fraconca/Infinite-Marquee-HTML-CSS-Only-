@@ -50,7 +50,7 @@ body {
 
 .m-scroll__title > div {
   display: flex;
-  animation: scrollText 120s infinite linear;
+  animation: scrollText 300s infinite linear;
 }
 @keyframes scrollText {
   from {
@@ -63,7 +63,7 @@ body {
 
 .m-scroll__title__INV > div {
   display: flex;
-  animation: scrollTextINV 120s infinite linear;
+  animation: scrollTextINV 150s infinite linear;
   animation-direction: reverse;
 }
 @keyframes scrollTextINV {
