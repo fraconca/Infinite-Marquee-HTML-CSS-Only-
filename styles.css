@@ -1,6 +1,7 @@
 body {
   margin: auto;
 }
+
 .m-scroll {
   display: flex;
   position: relative;
@@ -50,7 +51,7 @@ body {
 
 .m-scroll__title > div {
   display: flex;
-  animation: scrollText 120s infinite linear;
+  animation: scrollText 30s infinite linear;
 }
 @keyframes scrollText {
   from {
@@ -63,7 +64,7 @@ body {
 
 .m-scroll__title__INV > div {
   display: flex;
-  animation: scrollTextINV 20s infinite linear;
+  animation: scrollTextINV 30s infinite linear;
   animation-direction: reverse;
 }
 @keyframes scrollTextINV {
@@ -75,10 +76,10 @@ body {
   }
 }
 
-.rotaciona5 {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  transform: rotate(-5deg);
+.rotacionaMarq {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: rotate(-2deg);
 }
 
 .h1_marquee {
