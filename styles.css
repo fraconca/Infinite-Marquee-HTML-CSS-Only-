@@ -85,12 +85,12 @@ body {
 .h1_marquee {
   margin: 0;
   font-size: 32px;
-  transition: all 0s ease;
+  transition: all 10s ease;
 }
 .h1_marquee__INV {
   margin: 0;
   font-size: 32px;
-  transition: all 0s ease;
+  transition: all 10s ease;
 }
 
 .marqPos {
